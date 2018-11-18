@@ -1,0 +1,76 @@
+/**
+quitamos todos los margenes del body
+ */
+body {
+    margin: 0px;
+}
+
+/**
+generamos los estilos iniicales de la cabecera de biografisas
+ */
+header {
+    background-color: darkgreen;
+    height: 100px;
+    text-align: center;
+}
+/**
+quitamos el margen superior y generamos formato al texto
+ */
+header h3 {
+    font-family: Arial;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 58px;
+    color: white;
+}
+
+/**
+centramos el menu y agregamos color de fondo
+ */
+nav {
+    text-align: center;
+    background-color: red;
+
+}
+/**
+Ocultamos el punto de la lista
+ */
+nav ul {
+    list-style: none;
+}
+
+/**
+Mostramos un link al lado del otro del menu
+ */
+nav li {
+    display: inline-block;
+    margin-right: 35px;
+}
+/**
+Creamos un boton para el menu
+ */
+.boton-menu {
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: darkred;
+    color: white;
+    padding: 10px 25px 10px 25px;
+}
+
+.contenido {
+    display: flex;
+}
+
+.celda {
+    text-align: center;
+    flex: 2;
+    margin-left: 0px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.justificado {
+    text-align: justify !important;
+}
